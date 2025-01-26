@@ -29,5 +29,12 @@
 		"typescript-eslint": "^8.0.0-alpha.20",
 		"vite": "^5.0.3"
 	},
-	"type": "module"
+	"type": "module",
+	"dependencies": {
+		"@types/better-sqlite3": "^7.6.11",
+		"better-sqlite3": "^11.1.2",
+		"rollup-plugin-polyfill-node": "^0.13.0",
+		"sqlite": "^5.1.1",
+		"sqlite3": "^5.1.7"
+	}
 }
